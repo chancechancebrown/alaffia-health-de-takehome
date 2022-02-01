@@ -61,7 +61,11 @@ def coin_app():
     for coin in coins:
         try:
             coin_data = query_coingecko(coin)
-            coin_template[coin] = {"exchanges": coin_data[coin], "task_run": count}
+            coin_template[coin] = {
+                "id": coin,
+                "exchanges": coin_data[coin],
+                "task_run": count,
+            }
         except KeyError:
             coin_template = {}
         coin_markets.update(coin_template)
