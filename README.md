@@ -20,3 +20,8 @@ docker run -d -v $PWD/data:/src/data -p 3000:3333 coin-app
 The output data from the application is contained within the data directory. 
 
 The expected output data is *slightly* different than originally requested for ease of processing. 
+
+coin_markets.json has the following format:
+
+``` {coin_id: {'id': coin_name, 'exchanges': list[exchanges], 'task_run': task_run_id}}
+```
