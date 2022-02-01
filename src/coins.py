@@ -1,7 +1,6 @@
 import requests
-from flask import Flask, request, jsonify
+from flask import Flask, request
 from multiprocessing import Value
-import csv
 import json
 import logging
 
