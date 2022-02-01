@@ -32,8 +32,10 @@ Using pandas:
 ```
 import json
 import pandas as pd
+
 coin_markets = json.load(open('./coin_markets.json'))
 coins = []
+
 for coin in coin_markets:
   coins.append(coin_markets[coin])
   
