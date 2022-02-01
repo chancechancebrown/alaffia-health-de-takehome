@@ -14,3 +14,9 @@ mkdir ./data
 docker build -t coin-app .
 docker run -d -v $PWD/data:/src/data -p 3000:3333 coin-app
 ```
+
+## Querying the data
+
+The output data from the application is contained within the data directory. 
+
+The expected output data is *slightly* different than originally requested for ease of processing. 
