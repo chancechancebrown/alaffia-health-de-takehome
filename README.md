@@ -40,5 +40,4 @@ for coin in coin_markets:
   coins.append(coin_markets[coin])
   
 coin_df = pd.DataFrame(coins)
-
 ```
