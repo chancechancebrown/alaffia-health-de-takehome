@@ -1,5 +1,5 @@
 # Alaffia Health Data Engineering Takehome
-
+> This flask application takes posts requests of cryptocurrency names and outputs the available markets to a file at ./data/coin_markets.json
 ## Running the app
 
 You may either run start_flask_app.sh after changing execution permissions (chmod a+rx) via
