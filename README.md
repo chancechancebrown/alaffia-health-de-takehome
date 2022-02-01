@@ -24,5 +24,5 @@ The expected output data is *slightly* different than originally requested for e
 coin_markets.json has the following format:
 
 ```json 
-{'coin_id': {'id': 'coin_name', 'exchanges': list[exchanges], 'task_run': 'task_run_id'}}
+{'coin_id': {'id': 'coin_name', 'exchanges': 'list[exchanges]', 'task_run': 'task_run_id'}}
 ```
